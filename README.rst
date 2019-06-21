@@ -46,7 +46,7 @@ Start the HTTP server
 
 Run the script passing that device location as the ``--serial`` option::
 
-    $ metlinkpid-http --serial=/dev/tty/USB0
+    $ metlinkpid-http --serial=/dev/ttyUSB0
 
 The script accepts the following options:
 
