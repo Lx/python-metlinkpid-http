@@ -60,6 +60,8 @@ The script accepts the following options:
     The hostname/IP address and port to listen on, separated by a colon (``:``).
     If not specified, defaults to the value of environment variable ``METLINKPID_HTTP``;
     if no such variable, defaults to ``127.0.0.1:8080``.
+    Note that the default IP address prevents access by other computers on the network;
+    specifying an IP address of ``0.0.0.0`` (to listen on all IP addresses) will allow it.
 
 ``-h`` or ``--help``
     Displays usage information similar to above,
